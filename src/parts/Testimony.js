@@ -1,31 +1,33 @@
 import React from "react";
 
-import TestimonyAccent from "../assets/images/frame-gambar-testimoni.png";
+import TestimonyAccent from "../assets/images/frame-gambar-testimoni.jpg";
+import { Fade } from 'react-reveal'
 
 import Stars from "../elements/Stars";
 import Button from "../elements/Button";
 
 export default function Testimony({ data }) {
   return (
+    <Fade bottom>
       <section className="container">
         <div className="row align-items-center">
           <div className="col-auto" style={{ marginRight: 60 }}>
             <div
-              className="testimonial-hero"
-              style={{ margin: `30px 0 0 30px` }}
-            >
-              <img
-                src={data.imageUrl}
-                alt="Testimonial"
-                className="position-absolute"
-                style={{ zIndex: 1 }}
+                className="testimonial-hero"
+                style={{ margin: `30px 0 0 30px` }}
+              >
+                <img
+                  src={`${process.env.REACT_APP_HOST}/${data.imageUrl}`}
+                  alt="Testimonial"
+                  className="position-absolute"
+                  style={{ zIndex: 1 }}
               />
-              <img
-                src={TestimonyAccent}
-                alt="Testimonial frame"
-                className="position-absolute"
-                style={{ margin: `-30px 0 0 -30px` }}
-              />
+                <img
+                  src={TestimonyAccent}
+                  alt="Testimonial frame"
+                  className="position-absolute"
+                  style={{ margin: `-30px 0 0 -30px` }}
+                />
             </div>
           </div>
           <div className="col">
@@ -47,11 +49,12 @@ export default function Testimony({ data }) {
                 type="link"
                 href={`/testimonial/${data._id}`}
               >
-                Read Their Story
+                Lihat Kisah Mereka
               </Button>
             </div>
           </div>
         </div>
       </section>
+    </Fade>  
   );
 }

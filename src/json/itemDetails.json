@@ -1,76 +1,76 @@
 {
   "_id": "asd1293uasdads1",
-  "name": "Village Angga",
+  "name": "Desa Cidadas",
   "type": "Hotel",
   "imageUrls": [
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-1.jpg"
+      "url": "/images/gambar-detail1.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-2.jpg"
+      "url": "/images/gambar-detail2.png"
     },
     {
       "_id": "asd1293uasdads1",
-      "url": "/images/img-featured-3.jpg"
+      "url": "/images/gambar-detail3.png"
     }
   ],
   "country": "Indonesia",
   "city": "Bogor",
-  "price": "52",
-  "unit": "night",
+  "price": "350",
+  "unit": "malam",
   "isPopular": true,
   "hasBackyard": true,
   "description": "<p>Minimal techno is a minimalist subgenre of techno music. It ischaracterized by a stripped-down aesthetic that exploits the use ofrepetition and understated development. Minimal techno is thought tohave been originally developed in the early 1990s by Detroit-basedproducers Robert Hood and Daniel Bell.</p><p>Such trends saw the demise of the soul-infused techno that typified theoriginal Detroit sound. Robert Hood has noted that he and Daniel Bellboth realized something was missing from techno in the post-rave era.</p><p>Design is a plan or specification for the construction of an object orsystem or for the implementation of an activity or process, or theresult of that plan or specification in the form of a prototype, productor process. The national agency for design: enabling Singapore to usedesign for economic growth and to make lives better.</p>",
   "features": [
     {
       "_id": "asd1293uasdads1",
-      "qty": "3",
-      "name": "bedroom",
-      "imageUrl": "/images/icon-bedroom.svg"
+      "qty": "5",
+      "name": "kamar tidur",
+      "imageUrl": "/images/icons/ikon-tempat-tidur.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
-      "name": "living room",
-      "imageUrl": "/images/icon-livingroom.svg"
+      "name": "Ruang Tamu",
+      "imageUrl": "/images/icons/ikon-ruang-tamu.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "2",
-      "name": "bath room",
-      "imageUrl": "/images/icon-bathroom.svg"
+      "name": "kamar mandi",
+      "imageUrl": "/images/icons/ikon-kamar-mandi.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
-      "name": "dining room",
-      "imageUrl": "/images/icon-diningroom.svg"
+      "name": "ruang makan",
+      "imageUrl": "/images/icons/ikon-ruang-makan.svg"
     },
     {
       "_id": "asd1293uasdads1",
-      "qty": "10",
+      "qty": "15",
       "name": "mbps",
-      "imageUrl": "/images/icon-wifi.svg"
+      "imageUrl": "/images/icons/ikon-wifi.svg"
+    },
+    {
+      "_id": "asd1293uasdads1",
+      "qty": "7",
+      "name": "unit tersedia",
+      "imageUrl": "/images/icons/ikon-ac.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "2",
-      "name": "units ready",
-      "imageUrl": "/images/icon-airconditioner.svg"
-    },
-    {
-      "_id": "asd1293uasdads1",
-      "qty": "2",
-      "name": "refrigerator",
-      "imageUrl": "/images/icon-refrigerator.svg"
+      "name": "kulkas",
+      "imageUrl": "/images/icons/ikon-kulkas.svg"
     },
     {
       "_id": "asd1293uasdads1",
       "qty": "1",
-      "name": "television",
-      "imageUrl": "/images/icon-tv.svg"
+      "name": "televisi",
+      "imageUrl": "/images/icons/ikon-tv.svg"
     }
   ],
   "activities": [
@@ -102,12 +102,12 @@
   "categories": [
     {
       "_id": "asd1293uasdads1",
-      "name": "House with beauty backyard",
+      "name": "Hal untuk dilakukan",
       "items": [
         {
           "_id": "asd1293uasdads1",
           "name": "PSW Antasari",
-          "imageUrl": "/images/treasure-1.jpg",
+          "imageUrl": "/images/gambar-wisata1.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -115,7 +115,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Kuretakeso",
-          "imageUrl": "/images/treasure-2.jpg",
+          "imageUrl": "/images/gambar-wisata2.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -123,7 +123,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Arya Duta",
-          "imageUrl": "/images/treasure-3.jpg",
+          "imageUrl": "/images/gambar-wisata3.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": true
@@ -131,7 +131,7 @@
         {
           "_id": "asd1293uasdads1",
           "name": "Grand Dhika",
-          "imageUrl": "/images/treasure-4.jpg",
+          "imageUrl": "/images/gambar-wisata4.png",
           "country": "South Korea",
           "city": "Seoul Flore",
           "isPopular": false
@@ -141,11 +141,11 @@
   ],
   "testimonial": {
     "_id": "asd1293uasdads1",
-    "imageUrl": "/images/testimonial-detailspage.jpg",
-    "name": "Happy Family",
+    "imageUrl": "/images/testimoni-halaman-detail.png",
+    "name": "Keluarga Bahagia",
     "rate": 4.25,
-    "content": "What a great trip with my family and I should try again and again next time soon...",
-    "familyName": "Angga",
-    "familyOccupation": "UI Designer"
+    "content": "Sebagai seorang istri saya bisa memilih liburan luar biasa bersama keluarga tercinta...",
+    "familyName": "Livi",
+    "familyOccupation": "Desainer Interior"
   }
 }

@@ -1,31 +1,51 @@
 import React, { Component } from 'react'
 import Header from '../parts/Header'
 import Hero from '../parts/Hero'
-import landingPage from '../json/landingPage.json'
+// import landingPage from '../json/landingPage.json'
 import MostPicked from '../parts/MostPicked'
 import Categories from '../parts/Categories'
 import Testimony from '../parts/Testimony'
 import Footer from '../parts/Footer'
 
-export default class LandingPage extends Component {
+import { connect } from "react-redux";
+import { fetchPage } from "../store/actions/page";
+
+class LandingPage extends Component {
     constructor(props) {
     super(props);
     this.refPilihanFavorit = React.createRef();
   }
+
+componentDidMount() {
+    document.title = "Pakansi | Beranda";
+    window.scrollTo(0, 0);
+
+    if (!this.props.page.landingPage)
+      this.props.fetchPage(`/landing-page`,"landingPage");
+  }
   
   render() {
+    const {page} = this.props;
+
+    if(!page.hasOwnProperty("landingPage")) return null;
+
     return (
       <>
         <Header {...this.props}></Header>
-        <Hero refPilihanFavorit={this.refPilihanFavorit} data={landingPage.ikon}/>
+        <Hero refPilihanFavorit={this.refPilihanFavorit} data={page.landingPage.hero}/>
         <MostPicked
           refPilihanFavorit={this.refPilihanFavorit}
-          data={landingPage.pilihanFavorit}
+          data={page.landingPage.mostPicked}
         />
-        <Categories data={landingPage.kategori}/>
-        <Testimony data={landingPage.testimoni}/>
+        <Categories data={page.landingPage.category}/>
+        <Testimony data={page.landingPage.testimonial}/>
         <Footer/>
       </>
     )
   }
 }
+const mapStateToProps = (state) => ({
+  page: state.page,
+});
+
+export default connect(mapStateToProps, { fetchPage })(LandingPage);

@@ -10,51 +10,51 @@ export default function Footer() {
           <div className="col-auto" style={{ width: 350 }}>
             <IconText />
             <p className="brand-tagline">
-              We kaboom your beauty holiday instantly and memorable.
+              Kita akan buat liburanmu indahmu secara instan dan berkesan.
             </p>
           </div>
           <div className="col-auto mr-5">
-            <h6 className="mt-2">For Beinners</h6>
+            <h6 className="mt-2">Untuk Pemula</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <Button type="link" href="/register">
-                  New Account
+                  Akun Baru
                 </Button>
               </li>
               <li className="list-group-item">
                 <Button type="link" href="/properties">
-                  Start Booking a Room
+                  Pesan Kamar
                 </Button>
               </li>
               <li className="list-group-item">
                 <Button type="link" href="/use-payments">
-                  Use Payments
+                  Pembayaran
                 </Button>
               </li>
             </ul>
           </div>
           <div className="col-2 mr-5">
-            <h6 className="mt-2">Explore Us</h6>
+            <h6 className="mt-2">Jelajahi Kami</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <Button type="link" href="/careers">
-                  Our Careers
+                  Tentang
                 </Button>
               </li>
               <li className="list-group-item">
                 <Button type="link" href="/privacy">
-                  Privacy
+                  Kebijakan Privasi
                 </Button>
               </li>
               <li className="list-group-item">
                 <Button type="link" href="/terms">
-                  Terms & Conditions
+                  Syarat & Ketentuan
                 </Button>
               </li>
             </ul>
           </div>
           <div className="col-3">
-            <h6 className="mt-2">Connect Us</h6>
+            <h6 className="mt-2">Hubungi Kami</h6>
             <ul className="list-group list-group-flush">
               <li className="list-group-item">
                 <Button
@@ -62,23 +62,23 @@ export default function Footer() {
                   type="link"
                   href="mailto:support@staycation.id"
                 >
-                  support@staycation.id
+                  dukung@pakansi.id
                 </Button>
               </li>
               <li className="list-group-item">
-                <Button isExternal type="link" href="tel:+622122081996">
-                  021 - 2208 - 1996
+                <Button isExternal type="link" href="tel:+62210275737">
+                  021 - 1027 - 5735
                 </Button>
               </li>
               <li className="list-group-item">
-                <span>Staycation, Kemang, Jakarta</span>
+                <span>Pakansi Yok, Jakarta</span>
               </li>
             </ul>
           </div>
         </div>
         <div className="row">
-          <div className="col text-center copyrights">
-            Copyright 2019 • All rights reserved • Staycation
+          <div className="col-12 text-center copyrights">
+            Hakcipta 2023 • Dilindungi undang - undang • Pakansi
           </div>
         </div>
       </div>
